@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "automate"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Vaccaro <atvaccaro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+stravalib = "^1.2.0"
+pytryfi = "^0.0.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
